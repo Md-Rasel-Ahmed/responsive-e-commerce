@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <title>Document</title>
+    <style>
+        input{
+            width:30px;
+            text-align:center;
+            display: inline;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8">
+                <table class="table mt-5">
+                    <thead>
+                        <tr>  
+                            <th scope="col">Item Name</th>
+                            <th class="d-none"  scope="col">Item Price</th>
+                            <th scope="col">Item Quantity</th>
+                            <th scope="col" >Total Prices</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                           
+                            <td class="shop-product-name">Redmi</td>
+                            <td class="itemPrice d-none">1200</td>
+                            <td>
+                                <button class="btn btn-danger" >-</button>
+                                <input id="itemQnt" type="text" value="1" disabled>
+                                <button class="btn btn-primary">+</button>
+                                <button class="btn btn-secondary">X</button>
+                            </td>
+                            <td class="toalPrice">
+                                1200
+                            </td>
+                        </tr>
+                        <!-- <tr>
+                           
+                            <td>Samsung</td>
+                            <td class="itemPrice d-none">2000</td>
+                            <td>
+                                <button class="btn btn-danger" >-</button>
+                                <input id="itemQnt" type="text" value="1" disabled>
+                                <button class="btn btn-primary">+</button>
+                                <button class="btn btn-secondary">X</button>
+                            </td>
+                            <td class="toalPrice">
+                                2000
+                            </td>
+                        </tr>
+                        <tr>
+                           
+                            <td>Oppo</td>
+                            <td class="itemPrice d-none">5000</td>
+                            <td>
+                                <button class="btn btn-danger">-</button>
+                                <input id="itemQnt" type="text" value="1" disabled>
+                                <button class="btn btn-primary ">+</button>
+                                <button class="btn btn-secondary">X</button>
+                            </td>
+                            <td class="toalPrice">
+                                5000
+                            </td>
+                        </tr> -->
+                    </tbody>
+                </table>
+            </div>
+            <div class="col-lg-4">
+                <div class="card mt-5">
+                    <div class="card-header text-center">
+                        Grand Total Prices
+                    </div>
+                    <div class="card-body">
+                       <div class=" d-flex justify-content-between">
+                           <span>Subtotal</span>
+                           <span class="subTotal">00</span>
+                       </div>
+                       <div class=" d-flex justify-content-between">
+                           <span>Total Tax</span>
+                           <span class="tax">00</span>
+                       </div>
+                    <div class=" d-flex justify-content-between">
+                        <span>Total Price</span>
+                        <span class="total-prices">00</span>
+                    </div>
+                    </div>
+                    <div class="card-footer">
+                        <a href="#" class="btn btn-primary ">Check Out</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="nahida"></div>
+   <!-- <script src="shopping.js"></script>  -->
+   <!-- <script src="app.js"></script> -->
+</body>
+</html>

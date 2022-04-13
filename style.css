@@ -1,0 +1,27 @@
+.product-img img {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+.product-list {
+  position: absolute;
+  width: 300px;
+  right: 0;
+  top: -800px;
+  transition: all 0.5s ease-in-out;
+  overflow-y: scroll;
+  max-height: 500px;
+}
+
+.active {
+  top: 4em;
+}
+#shoping-cart {
+  display: none;
+  margin-top: 100px;
+}
+input {
+  width: 30px;
+  text-align: center;
+  display: inline;
+}
